@@ -17,7 +17,7 @@ end
 
 def swap_elements(array)
   swap_elements = array.slice!(1..2)
-  swap_elements.unshift(swap_elements.pop)
+  # swap_elements.unshift(swap_elements.pop)
   swap_elements.each do |element|
     array.insert(1, element)
   end
