@@ -16,6 +16,10 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
+  swap_elements = array.collect { |element| element[1..2]  }
+
+
+
 
 end
 
