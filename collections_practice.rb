@@ -37,6 +37,7 @@ end
 
 def find_a(array)
   array.collect { |element| element[2].replace("$") }
+  array
 end
 
 def sum_array(array)
