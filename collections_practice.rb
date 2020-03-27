@@ -16,11 +16,11 @@ def sort_array_char_count(array)
 end
 
 def swap_elements(array)
-  swap_elements = array.collect { |element| element[1..2]  }
-
-
-
-
+  swap_elements = array.slice[1..2]
+  swap_elements.unshift(swap.pop)
+  swap_elements.each do |element|
+    array.insert(0, element)
+  end
 end
 
 def reverse_array(array)
