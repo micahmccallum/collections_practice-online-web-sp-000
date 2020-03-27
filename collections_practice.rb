@@ -21,6 +21,7 @@ def swap_elements(array)
   swap_elements.each do |element|
     array.insert(1, element)
   end
+  array
 end
 
 def reverse_array(array)
